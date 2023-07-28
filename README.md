@@ -3,6 +3,9 @@
 Journal
 
 
+7.28 Longest Prefix
+Arrays.sort() can be used to sort the string list by alphabet order, which makes the first and the last element quite different from each other. Yet this method occupies more memory than my first method.
+
 7.28 - Roman2Int
 
 Initially used a map to store the correlation between letters and number, and compared consecutive characters to determine whether to add or subtract.
