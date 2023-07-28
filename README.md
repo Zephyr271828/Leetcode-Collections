@@ -3,6 +3,11 @@
 Journal
 
 
+7.28 - Roman2Int
+
+Initially used a map to store the correlation between letters and number, and compared consecutive characters to determine whether to add or subtract.
+Later turned to the "switch" structure in Java. Also used if (num * 4 < ans){} to determine whether to add or not. Much faster than before.
+
 7.27 - Palindrome
 
 Encountered problems of "10" and "0" cases. Add a if statement to address the issue.
