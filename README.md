@@ -2,8 +2,12 @@
 
 Journal
 
+7.29 Valid Parentheses
+
+A classic problem that introduces the stack data structure. Here I learnt the syntax of stack in Java. Furthermore, I learnt the difference between ":" and "->" in switch structure and achieved better time and space efficiency with the latter. 
 
 7.28 Longest Prefix
+
 Arrays.sort() can be used to sort the string list by alphabet order, which makes the first and the last element quite different from each other. Yet this method occupies more memory than my first method.
 
 7.28 - Roman2Int
