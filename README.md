@@ -1,6 +1,10 @@
-# Leetcode-Collections
+# Leetcode-in-Java
 
 Journal
+
+7.29 Max Profit
+
+My professor taught me about this in Data Structures LOL. Still I noticed there's a different solution on Leetcode. The two methods are basically equivalent yet the second one is somehow slightly faster.
 
 7.29 Valid Parentheses
 
