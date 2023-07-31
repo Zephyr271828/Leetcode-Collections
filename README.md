@@ -2,6 +2,30 @@
 
 Journal
 
+7.31 Length of Last Word
+
+I believe I came up with an elegant structure to fix the whole thing!
+
+7.31 Search Insert
+
+A classical problem that requires binary search to solve. Needs some modifications (i.e., M = (L + R + 1) / 2, L = M + 1, something like these) after you have the basic structure.
+
+7.31 strStr
+
+It's weird the equivalence of two String instances cannot be judged with '=' but with a built-in method called "equals()".
+
+7.30 Remove Elements
+
+Similar to "Remove Duplicates".
+
+7.30 Remove Duplicates
+
+A classical problem that asks you to solve it with an in-place programming fashion.
+
+7.30 Merge Sorted Lists
+
+Had some trouble figuring out the syntax for listnode. The java syntax (curNode.next = l1 == null? l2 : l1;) is very useful.
+
 7.29 Max Profit
 
 My professor taught me about this in Data Structures LOL. Still I noticed there's a different solution on Leetcode. The two methods are basically equivalent yet the second one is somehow slightly faster.
