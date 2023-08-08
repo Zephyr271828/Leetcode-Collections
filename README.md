@@ -2,6 +2,33 @@
 
 ## Journal
 
+###
+- [Problem]()
+- [Code] ()
+- Comment: **
+
+### 8.8 Add Binary
+- [Problem](https://leetcode.com/problems/add-binary/)
+- [Code] (https://github.com/Zephyr271828/Leetcode-in-Java/blob/main/addBinary.java)
+- Comment: This problem is not special, yet I remember binary addition can be addressed completely with bit operation. When we have input as numbers, we can write the following code:
+```java
+public static int addBinary3(int a, int b){
+        int sum = a ^ b, carry = (a & b) << 1;
+        while (carry != 0){
+            a = sum;
+            b = carry;
+            sum = a ^ b;
+            carry = (a & b) << 1;
+        }
+        return sum;
+    }
+```
+
+### 8.8 Plus One
+- [Problem](https://leetcode.com/problems/plus-one/)
+- [Code] (https://github.com/Zephyr271828/Leetcode-in-Java/blob/main/plusOne.java)
+- Comment: Did similar problems before in middle school in C++. A new technique I learnt from this problem is that I can use "new type[n]" to initialize a list of desired size.
+
 ### 7.31 Length of Last Word
 - [Problem](https://leetcode.com/problems/length-of-last-word/)
 - [Code](https://github.com/Zephyr271828/Leetcode-in-Java/blob/main/lengthOfLastWord.java)
