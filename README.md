@@ -1,15 +1,32 @@
 # Leetcode-in-Java
+Welcome to my collection of Leetcode solutions in java!
 
 ## Journal
+Below is a record of the Leetcode problems I solved along with my thoughts in these problems.
 
-###
+### 
 - [Problem]()
-- [Code] ()
+- [Code]()
 - Comment: **
+
+### 8.9 Merge Sorted Arrays
+- [Problem](https://leetcode.com/problems/merge-sorted-array/) 
+- [Code]()
+- Comment: **
+
+### 8.9 Climbing Stairs
+- [Problem](https://leetcode.com/problems/climbing-stairs/)
+- [Code](https://github.com/Zephyr271828/Leetcode-in-Java/blob/main/climbStairs.java)
+- Comment: A classic problem about Fibonacci sequence (actually I've done similar problems in math class back in elementary school). The only thing we need to pay attention to is that you can only use iteration instead of recursion, otherwise your time complexity will be exponential.
+
+### 8.9 Sqrt
+- [Problem](https://leetcode.com/problems/sqrtx/)
+- [Code](https://github.com/Zephyr271828/Leetcode-in-Java/blob/main/sqrt.java)
+- Comment: INT_MAX (2^31-1) is a very important limitation in this problem. Some techniques - like L + (R - L) / 2, or convert your variables to long type and convert them back to int type after computation - can be adopted to address this problem.
 
 ### 8.8 Add Binary
 - [Problem](https://leetcode.com/problems/add-binary/)
-- [Code] (https://github.com/Zephyr271828/Leetcode-in-Java/blob/main/addBinary.java)
+- [Code](https://github.com/Zephyr271828/Leetcode-in-Java/blob/main/addBinary.java)
 - Comment: This problem is not special, yet I remember binary addition can be addressed completely with bit operation. When we have input as numbers, we can write the following code:
 ```java
 public static int addBinary3(int a, int b){
@@ -26,7 +43,7 @@ public static int addBinary3(int a, int b){
 
 ### 8.8 Plus One
 - [Problem](https://leetcode.com/problems/plus-one/)
-- [Code] (https://github.com/Zephyr271828/Leetcode-in-Java/blob/main/plusOne.java)
+- [Code](https://github.com/Zephyr271828/Leetcode-in-Java/blob/main/plusOne.java)
 - Comment: Did similar problems before in middle school in C++. A new technique I learnt from this problem is that I can use "new type[n]" to initialize a list of desired size.
 
 ### 7.31 Length of Last Word
@@ -39,7 +56,7 @@ public static int addBinary3(int a, int b){
 - [Code](https://github.com/Zephyr271828/Leetcode-in-Java/blob/main/searchInsert.java)
 - Comment: A classical problem that requires binary search to solve. Needs some modifications (i.e., M = (L + R + 1) / 2, L = M + 1, something like these) after you have the basic structure.
 
-### 7.31  Find the Index of the First Occurrence in a String
+### 7.31 Find the Index of the First Occurrence in a String
 - [Problem](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/)
 - [Code](https://github.com/Zephyr271828/Leetcode-in-Java/blob/main/strStr.java)
 - Comment: It's weird the equivalence of two String instances cannot be judged with '=' but with a built-in method called "equals()".
