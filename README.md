@@ -4,15 +4,15 @@ Welcome to my collection of Leetcode solutions in java!
 ## Journal
 Below is a record of the Leetcode problems I solved along with my thoughts in these problems.
 
-### 
-- [Problem]()
-- [Code]()
-- Comment: **
+### 8.9 Binary Tree Preorder/Inorder/Postorder Traversal
+- Problems: [Preorder](https://leetcode.com/problems/binary-tree-preorder-traversal/) | [Inorder](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [Postorder](https://leetcode.com/problems/binary-tree-postorder-traversal/)
+- Codes: [Preorder](https://github.com/Zephyr271828/Leetcode-in-Java/blob/main/PreorderTraversal.java) | [Inorder](https://github.com/Zephyr271828/Leetcode-in-Java/blob/main/inorderTraversal.java) | [Postorder](https://github.com/Zephyr271828/Leetcode-in-Java/blob/main/PostorderTraversal.java)
+- Comment: These three problems are quite similar. Once you understand the concept of traversal of trees you can take them as simple exercises of recursion.
 
 ### 8.9 Merge Sorted Arrays
 - [Problem](https://leetcode.com/problems/merge-sorted-array/) 
-- [Code]()
-- Comment: **
+- [Code](https://github.com/Zephyr271828/Leetcode-in-Java/blob/main/merge.java)
+- Comment: A simple in-place problem.
 
 ### 8.9 Climbing Stairs
 - [Problem](https://leetcode.com/problems/climbing-stairs/)
